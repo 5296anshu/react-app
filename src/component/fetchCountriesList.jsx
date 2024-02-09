@@ -42,8 +42,9 @@ function PaginatedItems({ itemsPerPage }) {
         fetch('https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-countries')
             .then(res => res.json())
             .then(result => {
-                console.log(result);
                 setData(result.data);
+                setTimeout(() => { setLoading(false); }, 1000)
+
             })
     }
     useEffect(() => {
