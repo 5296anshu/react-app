@@ -37,6 +37,7 @@ function Table({ currentItems }) {
 
 function PaginatedItems({ itemsPerPage }) {
     const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
     const fetchList = () => {
         fetch('https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-countries')
             .then(res => res.json())
@@ -67,8 +68,7 @@ function PaginatedItems({ itemsPerPage }) {
     };
 
     return (
-        <>
-            <Table currentItems={currentItems} />
+        <>   {loading ? <h1>Loading...</h1> : (<><Table currentItems={currentItems} />
             <ReactPaginate
                 breakLabel="..."
                 nextLabel="next >"
@@ -80,7 +80,7 @@ function PaginatedItems({ itemsPerPage }) {
                 className={'pagination'}
             />
             <h4>Total Count</h4>
-            <div className='total-count'>{data.length}</div>
+            <div className='total-count'>{data.length}</div></>)}
         </>
     );
 }
