@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <h1>Counter: {count}</h1>
-      <button onClick={() => setCount(count + 1)}> Increment</button>
-      <button onClick={() => setCount(count + 1)}>Decrement</button>
+      <div style={{ display: 'flex', flexDirection: "row", gap: '20px' }}>
+        <button className='inc' onClick={() => setCount(count + 1)}> Increment</button>
+        <button className='dec' onClick={() => setCount(count + 1)}>Decrement</button>
+      </div>
     </div>
   );
 }
