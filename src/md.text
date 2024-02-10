@@ -1,0 +1,387 @@
+1):- What is React?
+
+Ans:- React is the most popular javascript library for building user interfaces. 
+It is fast, flexible and it also has a strong community sitting online to help you every time. 
+The coolest thing about React is it’s based on components, you break down your complex code into individual pieces i.e components and that helps developers in organizing their code in a better way. 
+A lot of companies are moving to React and that’s the reason most of the beginners and experienced developers also expanding their knowledge learning this library. 
+
+2):- Who made React?
+Ans:- React was created by Jordan Walke, a software engineer at Facebook.
+What is Babel?
+Ans:- Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Here are the main things Babel can do for you:
+
+Transform syntax
+Polyfill features that are missing in your target environment (through a third-party polyfill such as core-js)
+Source code transformations (codemods)
+And more! (check out these videos for inspiration)
+
+3):- How does Babel convert html code in React into valid code?
+
+Ans:- Babel converts HTML code into valid code by using the JSX code and converter.
+
+A user can essentially use future JavaScript in the browsers of today thanks to Babel, a very well-known transpiler.
+The standard method has the ability to accurately translate the newest JavaScript code into a format that the browser can properly understand.
+Babel is a key tool that can translate JSX syntax, which is used to create HTML-like code in React components, into valid JavaScript code that can be executed in preferred browsers.
+By converting the JSX code into JavaScript functions that return the same HTML-like structures.
+The functionality then enables the usage of JSX in React apps and ensures compatibility with outdated browsers that might not support the most recent JavaScript syntax.
+
+4):- What is ReactDOM used for? Write an example?
+
+   ReactDOM is used to render components and elements on the web. It is a part of the React library used to create user interfaces and dynamic web applications, 
+   as well as reusable and composable components that can be used in different applications.
+
+   It is used to interact and manipulate the DOM structure, including the elements and components that are rendered on the page. 
+   It’s also used to control the state of the components and elements on the page. ReactDOM also provides developers with access to the DOM APIs.
+
+5):- What are the packages that you need to import for react to work with?
+
+Ans: Essential React NPM Packages
+A. UI Component Libraries and Packages
+1. @mui/material
+Material UI is a comprehensive library of components that features our implementation of Google's Material Design system.
+
+Install Command:
+
+npm install @mui/material @emotion/react @emotion/styled
+@mui/material provides the core components and design system for your application.
+
+@emotion/react provides the underlying styling infrastructure and features.
+
+@emotion/styled provides a higher-level styling API for building reusable and themable styled-components.
+
+2. antd
+An enterprise-class UI design language and React UI library. Install Command:
+
+npm install antd
+It provides a comprehensive set of high-quality React components out of the box, written in TypeScript with predictable static types. It also offers a whole package of design resources and development tools, along with internationalization support for dozens of languages and powerful theme customization in every detail.
+
+3. semantic-ui-react
+Install Command:
+
+npm i semantic-ui-react
+semantic-ui-react is a React UI library that implements the Semantic UI design system. It provides a comprehensive set of React components that are designed to be accessible, consistent, and easy to use. Semantic UI is a popular choice for building React applications that are visually appealing, user-friendly, and adhere to accessibility guidelines.
+
+4. react-bootstrap
+Install Command:
+
+npm i react-bootstrap
+The above command installs the React Bootstrap library, which is a popular choice for building React applications with Bootstrap components. Bootstrap is a widely used CSS framework that provides a set of pre-styled components for creating responsive and mobile-first websites.
+
+React Bootstrap integrates Bootstrap components into the React ecosystem, allowing you to use them seamlessly within your React applications.
+
+5. office-ui-fabric-react
+Install Command:
+
+npm i office-ui-fabric-react
+The command installs the Office UI Fabric React library, which is a collection of robust React-based components designed to make it simple for you to create consistent web experiences using the Fluent Design Language. Fluent Design Language is a set of UI principles and guidelines developed by Microsoft to provide a cohesive and user-friendly experience across its products and services.
+
+6. reactstrap
+Install Command:
+
+npm i reactstrap
+The command installs the Reactstrap library, which is a popular React component library for building responsive and mobile-first web applications with Bootstrap CSS. It provides a comprehensive set of React components that are based on Bootstrap's design system, making it easy to create visually appealing and consistent UIs across your applications.
+
+7. @blueprintjs/core
+Install Command:
+
+npm i @blueprintjs/core
+The command installs the Blueprint core package, which provides the foundational components and styles for building React applications based on Blueprint's design system. Blueprint is a popular React UI toolkit known for its clean, modern design and focus on accessibility.
+
+8. @chakra-ui/react
+Install Command:
+
+npm i @chakra-ui/react
+The command installs the Chakra UI React library, which is a comprehensive collection of composable and accessible UI components for building React applications. It provides a rich ecosystem of components, including buttons, typography, navigation, forms, tables, and more, all designed to adhere to the Chakra UI design system.
+
+9. grommet
+Install Command:
+
+npm i grommet
+The command installs the Grommet library, which is a React-based design system and component library for building accessible web applications. It provides a comprehensive set of pre-styled components that adhere to the Grommet design system, ensuring a consistent and visually appealing user experience across your applications.
+
+10. evergreen-ui
+Install Command:
+
+npm i evergreen-ui
+The command installs the Evergreen UI library, which is a collection of polished and accessible React components for building ambitious web applications. It provides a comprehensive set of UI elements that are designed to follow Evergreen's design system, ensuring a consistent and visually appealing user experience across your applications.
+
+B. State Management Packages
+1. redux
+Install Command:
+
+npm i redux
+The command installs the Redux library, which is a popular JavaScript library for managing application state. It provides a predictable and structured approach to handling state changes in your applications, making it easier to manage complex state transitions and ensure consistent behavior across your application.
+
+2. react-redux
+Install Command:
+
+npm i react-redux
+The command installs the React Redux library, which is a popular React UI binding library for Redux. It provides a declarative and component-based approach to connecting Redux state to your React components, making it easier to manage and manipulate application state in your React applications.
+
+3. mobx
+Install Command:
+
+npm i mobx
+The command installs the MobX library, which is a lightweight state management solution for JavaScript applications. It provides a reactive programming model that automatically updates derived data and views whenever their dependencies change, simplifying state management and improving performance.
+
+4. redux-thunk
+Install Command:
+
+npm i redux-thunk
+The command installs the Redux Thunk middleware for Redux, a JavaScript library for managing application state. Redux Thunk is a middleware function that allows you to write asynchronous actions in your Redux applications. Asynchronous actions are actions that need to perform some asynchronous operation, such as making an HTTP request, before they can dispatch the next action.
+
+5. redux-saga
+Install Command:
+
+npm i redux-saga
+The command installs the Redux Saga library, which is a powerful JavaScript library for managing side effects in Redux applications. It provides a declarative and effect-based approach to handling side effects, such as making API calls, navigating, or triggering actions based on certain events.
+
+6. redux-persist
+Install Command:
+
+npm i redux-persist
+The command installs the Redux Persist library, which is a powerful and versatile tool for persisting the Redux store across page reloads or browser shutdowns. It provides various strategies for storing and retrieving the Redux store state, ensuring that application state remains persistent even when the application is restarted or navigated away from.
+
+7. recoil
+Install Command:
+
+npm i recoil
+The command installs the Recoil library, which is an experimental state management library for React. It provides a declarative and observable approach to managing state in React applications, offering a lightweight and flexible alternative to popular state management solutions like Redux.
+
+8. zustand
+Install Command:
+
+npm i zustand
+The command installs the Zustand library, which is a small, fast, and scalable bearbones state-management solution using simplified flux principles. It has a comfy API based on hooks, isn't boilerplate or opinionated. It also deals with common pitfalls, like the dreaded zombie child problem, react concurrency, and context loss between mixed renderers.
+
+C. Routing Packages
+1. react-router-dom
+Install Command:
+
+npm i react-router-dom
+The command installs the React Router DOM library, which is a powerful and versatile routing library for React applications. It provides a declarative and component-based approach to routing, making it easy to manage navigation between different parts of your application.
+
+2. universal-router
+Install Command:
+
+npm i universal-router
+The command installs the Universal Router library, which is a simple middleware-style router for isomorphic JavaScript web apps. It can be used in both client-side and server-side applications and provides a flexible and easy-to-use routing solution.
+
+3. @reach/router
+Install Command:
+
+npm i @reach/router
+The command installs the Reach Router library, which is a small, simple, and performant routing library for React applications. It is based on the fundamental concepts of React Router but is designed to be more lightweight and efficient.
+
+4. connected-react-router
+Install Command:
+
+npm i connected-react-router
+The command installs the Connected React Router library, which is a Redux binding for React Router v4 and v5. It simplifies the integration of React Router with Redux by synchronizing router state with the Redux store. This ensures that components always have access to the current router state, and that state changes are reflected in both the URL and the component tree.
+
+5. react-router-static
+Install Command:
+
+npm i react-router-static
+The command npm i react-router-static installs the React Router Static library, which is a static site generator for React applications. It allows you to build static HTML files from your dynamic React components, enabling serverless hosting and improved performance for SEO and page load times.
+
+D. HTTP Client Packages
+1. axios
+Install Command:
+
+npm i axios
+The command installs the Axios library, which is a popular and powerful HTTP client for JavaScript applications. It provides a simple, promise-based API for making HTTP requests and handling responses, making it easy to integrate with web APIs and other external services.
+
+2. apisauce
+Install Command:
+
+npm i apisauce
+The command installs the Apisauce library, which is a low-fat wrapper for the popular Axios HTTP client. It provides a simplified and more consistent API for making HTTP requests and handling responses, making it easier to manage API interactions in React and other JavaScript applications.
+
+3. fetch-react
+Install Command:
+
+npm i fetch-react
+The command installs the Fetch React library, which is a React component for fetching data and displaying it in a declarative way. It utilizes the browser's Fetch API for making HTTP requests and provides a simple and intuitive API for handling the data fetching process within React components.
+
+4. superagent
+Install Command:
+
+npm i superagent
+The command installs the SuperAgent library, which is a small, progressive client-side HTTP request library for JavaScript applications. It provides a simple, promise-based API for making HTTP requests and handling responses, making it easy to integrate with web APIs and other external services.
+
+E. CSS in JavaScript Libraries
+1. styled-components
+Install Command:
+
+npm i styled-components
+The command is used to install the styled-components library in your Node.js project. Styled-components is a CSS-in-JS library that allows you to write CSS code directly in your React components. This can make your code more readable and maintainable, as it keeps your CSS logic close to the components it styles.
+
+2. @emotion/css
+Install Command:
+
+npm i @emotion/css
+The command is used to install the @emotion/css package in your Node.js project. @emotion/css is a framework-agnostic CSS-in-JS library that allows you to write CSS code directly in your JavaScript applications. It is a part of the Emotion project, which provides a set of tools for managing CSS in JavaScript applications.
+
+3. css-loader
+Install Command:
+
+npm i css-loader
+The command is used to install the css-loader package in your Node.js project. css-loader is a Webpack loader that allows you to import CSS files directly into your JavaScript modules. This means that you can write your CSS code in separate files and then import them into your JavaScript components, where they will be processed and applied to the DOM.
+
+4. tailwindcss
+Install Command:
+
+npm i tailwindcss
+The command is used to install Tailwind CSS in your Node.js project. Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes that can be composed to build any design. This makes it a powerful and flexible tool for creating custom user interfaces.
+
+5. radium
+Install Command:
+
+npm i radium
+The command is used to install the radium package in your Node.js project. Radium is a toolchain for React component styling that provides a set of tools to manage inline styles on React elements. It offers powerful styling capabilities without requiring CSS, inspired by React: CSS in JS by vjeux.
+
+F. Form Handling
+1. formik
+Install Command:
+
+npm i formik
+The command is used to install the formik package in your Node.js project. Formik is a small library that provides several useful features for building forms in React. It simplifies the process of handling form state, validation, and submission, making it easier to create complex and interactive forms.
+
+2. react-hook-form
+Install Command:
+
+npm i react-hook-form
+The command is used to install the react-hook-form package in your Node.js project. React Hook Form is a performant, flexible, and extensible form library for React Hooks. It provides an intuitive and declarative API for building forms with minimal code, making it a popular choice for React developers.
+
+3. final-form
+Install Command:
+
+npm i final-form
+The command is used to install the final-form package in your Node.js project. Final Form is a high-performance, subscription-based form state management library designed to simplify and streamline building forms in React and other JavaScript frameworks.
+
+4. react-forms
+Install Command:
+
+npm i react-forms
+React Forms simplifies form rendering and validation in React by offering a suite of tools. Utilizing a schema language, it defines the structure and validation rules for forms, accompanied by a collection of form components that seamlessly render these schemas into user interfaces.
+
+Ensuring strong immutability guarantees, React Forms maintains a centralized form state accessible from a single location. The process involves minimal overhead, allowing for efficient snapshots of the form state.
+
+5. redux-form
+Install Command:
+
+npm i redux-form
+The command is used to install the redux-form package in your Node.js project. Redux Form is a popular library for managing form state in React applications using Redux. It provides a declarative and powerful API for creating forms, handling form state, and submitting form data.
+
+G. Other UI component libraries for React
+1. react
+Install Command:
+
+npm i react
+The core React library for building user interfaces. This foundational package allows you to create React components and manage the state of your application.
+
+2. react-dom
+Install Command:
+
+npm i react-dom
+React DOM is the package that provides DOM-specific methods for React. It's commonly used for web applications to render React components in the browser.
+
+3. create-react-app
+Install Command:
+
+npm i create-react-app
+The command is used to install Create React App, a toolchain for quickly and easily creating React projects. It provides a simple and efficient way to set up a new React development environment, eliminating the need for manual configuration and setup.
+
+4. react-script
+Install Command:
+
+npm i react-scripts
+The command is used to install the react-scripts package in your Node.js project. react-scripts is a package that provides the build tools and configurations necessary to create and develop React applications. It is a core component of Create React App, a popular toolchain for setting up and managing React projects.
+
+5. react-spinners
+Install Command:
+
+npm i react-spinners
+The command is used to install the react-spinners package in your Node.js project. React Spinners is a popular library for adding loading spinners and animation to your React applications. It provides a collection of customizable SVG-based spinners that can be easily integrated into your React components.
+
+6. react-custom-scrollbars
+Install Command:
+
+npm i react-custom-scrollbars
+The command is used to install the react-custom-scrollbars package in your Node.js project. React Custom Scrollbars is a popular library for providing custom scrollbar functionality in React applications. It offers customizable scrollbars that can be styled to match your application's design and provide a more user-friendly scrolling experience.
+
+7. react-dropdown
+Install Command:
+
+npm i react-dropdown
+The command is used to install the react-dropdown package in your Node.js project. React Dropdown is a popular library for creating dropdown menus and select elements in React applications. It provides a collection of customizable dropdown components that can be easily integrated into your React components.
+
+8. react-collapsible
+Install Command:
+
+npm i react-collapsible
+The command is used to install the react-collapsible package in your Node.js project. React Collapsible is a popular library for creating collapsible content sections in React applications. It provides a simple and flexible API for creating expandable or retractable content panels, enabling users to toggle the visibility of content.
+
+9. react-calendar
+Install Command:
+
+npm i react-calendar
+The command is used to install the react-calendar package in your Node.js project. React Calendar is a popular library for creating interactive calendars in React applications. It provides a collection of customizable calendar components that can be easily integrated into your React components.
+
+10. react-datepicker
+Install Command:
+
+npm i react-datepicker
+The command is used to install the react-datepicker package in your Node.js project. React Datepicker is a popular library for creating datepicker components in React applications. It provides a simple and flexible API for creating date selection interfaces that allow users to choose specific dates.
+
+11. react-table
+Install Command:
+
+npm i react-table
+The command is used to install the react-table package in your Node.js project. React Table is a popular library for building performant and flexible data tables in React applications. It provides a comprehensive set of features for managing table data, rendering cells, handling filtering, sorting, and pagination.
+
+12. react-grid-layout
+Install Command:
+
+npm i react-grid-layout
+The command is used to install the react-grid-layout package in your Node.js project. React Grid Layout is a popular library for creating resizable and draggable grid layouts in React applications. It provides a flexible and responsive API for managing grid layouts, enabling users to arrange and resize components within a grid structure.
+
+
+6):- How do you add react to a web application?
+
+   Add React in few step.
+    Step 1: Add a DOM Container to the HTML. First, open the HTML page you want to edit. ...
+    Step 2: Add the Script Tags. Next, add three <script> tags to the HTML page right before the closing </body> tag: ...
+    Step 3: Create a React Component. Create a file called like_button.js next to your HTML page.
+
+7):- What is React.createElement?
+     React.createElement is a fundamental method of React JS. The main use of React.createElement is the Creation of a React component. It is the JavaScript format for creating react components. Also, the JSX react component when transpired invokes this only method for creating the component.
+
+    Syntax:
+       React.createElement(type,{props},children); 
+  // JSX code 
+      <type {props} >{children}</type
+       Parameters: React.createElement() takes three arguments. They are:
+
+    1) type: the type of the HTML element (h1,p, button, etc).
+    2) props: properties of the object({style:{size:10px}} or Eventhandlers, classNames,etc).
+    3) children: anything that needs to be enclosed by that component.
+    4)   React DOM: React DOM contains the arguments that are necessary to render react elements in the browser.
+ 
+    ReactDOM.render(element,containerElement);
+     Parameters: ReactDOM.render() takes two arguments:
+     element: The element that needs to be rendered in the DOM.
+     containerElement: Where to render in the dom.
+
+8):- What are the three properties that createElement accept?
+ Ans: The Three properties of createElement are:
+  1) appendChild(), insertBefore(), replaceChild(): Methods to manipulate the child nodes of the element.
+  2) addEventListener(): Attaches an event handler to the element.
+     So, while createElement() itself only accepts the tag name, you can subsequently manipulate the element using these properties and methods to achieve your desired outcome.
+  3)`innerHTML: Sets or returns the HTML content (inner HTML) of an element.
+
+9):- What is the meaning of render and root?
+    1) Render: In web development, "render" typically means to generate the HTML, CSS, and JavaScript necessary to display a web page or a part of a web page to the user. This process involves taking data and UI components and transforming them into a visual representation that users can interact with. Rendering can happen on the client-side (in the user's web browser) or on the server-side (where the web server generates the HTML before sending it to the client).
+
+    2) Root: "Root" usually refers to the top-level element in a component-based web application framework, such as React or Vue.js. The root element is where the entire application is mounted or attached to in the HTML document. It serves as the entry point for the application's UI hierarchy. For example, in React applications, you might see something like <div id="root"></div>, where the root element with the id "root" is the container for the entire React application.
